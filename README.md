@@ -32,7 +32,6 @@
 ## 🤝 मुझसे जुड़ें (Connect with Me)
 
 *   💼 **LinkedIn:** [://linkedin.com](https://www.://linkedin.com)
-*   *   📧 **Email:** [आपका ईमेल यहाँ लिखें]
+*   *   📧 **Email:** ashishsingh250497@gmail.com
 *   📱 **Phone:** 9113165363
-*   📧 **Email:** [आपका ईमेल यहाँ लिखें]
-*   📱 **Phone:** 9113165363
+
