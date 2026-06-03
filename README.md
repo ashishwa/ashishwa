@@ -1,37 +1,38 @@
-import streamlit as st
-import pandas as pd
+# हाय, मैं आशीष कुमार हूँ! 👋 (Ashish Kumar)
+### B.Tech CSE Graduate | Python & SQL Developer | Data Enthusiast 📊
 
-# 1. वेबसाइट का टाइटल और हेडर सेट करना
-st.set_page_config(page_title="Exam Tracker", page_icon="📊", layout="centered")
-st.title("📊 भारत सरकारी परीक्षा ट्रैकर - 2026")
-st.write("UPSC, SSC और अन्य सरकारी परीक्षाओं के डेटा का लाइव विश्लेषण।")
+यूपीएससी और सरकारी परीक्षाओं की तैयारी के दौरान विकसित हुए लॉजिकल माइंडसेट को अब मैं टेक्नोलॉजी और डेटा इंजीनियरिंग में इस्तेमाल कर रहा हूँ। मैं डेटा पाइपलाइन्स बनाने और उन्हें सुंदर वेब डैशबोर्ड्स में बदलने में माहिर हूँ।
 
-# 2. हमारा डेटा (जो हमने पिछले प्रोजेक्ट में बनाया था)
-exams_data = {
-    'परीक्षा का नाम': ['UPSC CSE', 'SSC CGL', 'BPSC', 'RRB NTPC'],
-    'कुल सीटें': [1000, 8500, 800, 5000],
-    'कट-ऑफ (%)': [47.5, 68.0, 52.3, 74.2]
-}
-df = pd.DataFrame(exams_data)
+---
 
-# 3. वेबसाइट पर डेटा टेबल दिखाना
-st.subheader("📋 परीक्षाओं का मुख्य डेटा")
-st.dataframe(df, use_container_width=True)
+## 🚀 मेरा लाइव मुख्य प्रोजेक्ट (Featured Project)
+### 📊 भारत सरकारी परीक्षा ट्रैकर - 2026
+*   **लाइव ऐप लिंक:** [यहाँ क्लिक करके वेबसाइट देखें](https://streamlit.app)
+*   **टेक स्टैक:** Python, SQL (SQLite), Pandas, Streamlit, Git
+*   **शार्ट समरी:** यह एक एंड-टू-एंड डेटा पाइपलाइन और वेब-डैशबोर्ड है जो भारत की बड़ी परीक्षाओं (UPSC, SSC) की सीटों और कट-ऑफ का लाइव विश्लेषण करता है।
 
-# 4. इंटरैक्टिव चार्ट बनाना (वेबसाइट पर ग्राफ दिखाना)
-st.subheader("📈 सीटों का तुलनात्मक ग्राफ़")
-st.bar_chart(data=df, x='परीक्षा का नाम', y='कुल सीटें')
+---
 
-# 5. साइडबार में एक फ़िल्टर लगाना
-st.sidebar.header("फिल्टर ऑप्शन")
-selected_exam = st.sidebar.selectbox("किसी एक परीक्षा को चुनें:", df['परीक्षा का नाम'])
+## 🛠️ तकनीकी कौशल (Technical Skills)
 
-# चुने गए परीक्षा का डेटा अलग से दिखान
-exam_info = df[df['परीक्षा का नाम'] == selected_exam]
-st.sidebar.write(f"**सीटें:** {exam_info['कुल सीटें'].values[0]}")
-st.sidebar.write(f"**कट-ऑफ:** {exam_info['कट-ऑफ (%)'].values[0]}%")
+*   **Languages:** Python (Core, OOPs)
+*   **Databases:** SQL (MySQL, SQLite3), Database Designing, Joins, Queries
+*   **Data Science Tools:** Pandas, NumPy, Data Cleaning & Aggregation
+*   **Deployment & Tools:** Streamlit Framework, Git, VS Code, GitHub Cloud
 
-ा
-exam_info = df[df['परीक्षा का नाम'] == selected_exam]
-st.sidebar.write(f"**सीटें:** {exam_info['कुल सीटें'].values[0]}")
-st.sidebar.write(f"**कट-ऑफ:** {exam_info['कट-ऑफ (%)'].values[0]}%")
+---
+
+## 📊 गिटहब स्टैटिस्टिक्स (My GitHub Stats)
+
+![Ashish's GitHub stats](https://vercel.app)
+![Top Langs](https://vercel.app)
+
+---
+
+## 🤝 मुझसे जुड़ें (Connect with Me)
+
+*   💼 **LinkedIn:** [://linkedin.com](https://www.://linkedin.com)
+*   *   📧 **Email:** [आपका ईमेल यहाँ लिखें]
+*   📱 **Phone:** 9113165363
+*   📧 **Email:** [आपका ईमेल यहाँ लिखें]
+*   📱 **Phone:** 9113165363
